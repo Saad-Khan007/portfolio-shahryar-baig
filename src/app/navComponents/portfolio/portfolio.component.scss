@@ -5,7 +5,7 @@
     font-style: normal;
     font-weight: bold;
     font-size: 31px;
-    color: #3E3B3B;
+    color: #FBBB0E;
     margin-bottom: 20px;
   }
 
@@ -37,7 +37,7 @@
     color: #878789;
 
     &.active {
-      color: #3E3B3B;
+      color: #FBBB0E;
     }
   }
 }
@@ -114,27 +114,4 @@
 
 .gallery-image:hover img {
   transform: translate(-50%, -50%) scale(1.1);
-}
-
-
-@media (max-width:700px) {
-  .portfolio__nav {
-    display: none !important;
-  }
-
-  .portfolio__gallery {
-    flex-wrap: initial;
-    gap: 0px;
-    flex-direction: column;
-
-    .portfolio__gallery--item {
-      width: 100%;
-
-      .gallery-image {
-        img {
-          width: 100%;
-        }
-      }
-    }
-  }
 }
